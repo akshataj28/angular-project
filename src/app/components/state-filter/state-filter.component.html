@@ -1,0 +1,4 @@
+<label id='label' for="state">Select State: </label>
+<select id="state" [(ngModel)]="selectedState" (change)="onStateChange(selectedState)">
+  <option *ngFor="let state of states" [value]="state">{{ state.toUpperCase() }}</option>
+</select>

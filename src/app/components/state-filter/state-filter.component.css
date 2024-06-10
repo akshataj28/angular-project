@@ -1,0 +1,12 @@
+#state {
+    margin-left: 10px; /* Adjust this value to move the element to the right */
+  }
+  
+#label {
+    margin-left: 200px; /* Adjust this value to move the element to the right */
+  }
+.mat-select-panel {
+    max-height: 200px; /* Adjust this value as needed */
+    overflow-y: auto;
+  }
+  
